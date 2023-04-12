@@ -1,0 +1,322 @@
+/*Start My Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* End My Defaults */
+
+/* Start Header */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: black;
+}
+
+
+#header #melumat ul {
+    display: flex;
+}
+
+#header #melumat ul li a {
+
+    padding: 0 10px;
+    color: #fff;
+    text-transform: uppercase;
+
+
+
+}
+
+#loqo {
+    color: rgb(215, 152, 15);
+    text-decoration: solid;
+
+}
+
+
+/* End Header */
+
+/* start Banner */
+
+#banner {
+    background-image: url("../img/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding: 250px;
+}
+
+
+#banner h3 {
+    color: #fff;
+    margin: 20px;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+#banner h1 {
+    margin: 20px;
+    font-size: 60px;
+    color: #fff;
+}
+
+#banner a {
+    color: #fff;
+    background-color: #dfdf0a;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 45px;
+
+}
+
+/* end Banner */
+/* start Services */
+#services h1 {
+    text-align: center;
+    padding-top: 100px;
+    text-size-adjust: 20px;
+
+}
+
+#services h3 {
+    text-align: center;
+    padding-top: 25px;
+    text-decoration: solid;
+    margin-bottom: 50px
+}
+
+#altHisse {
+    display: flex;
+
+
+}
+
+.altHisse-yazi {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.altHisse-yazi h1 {
+    margin: 25px 0;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+#altHisse .altHisse-yazi i {
+    background-color: #dfdf0a;
+    font-size: 40px;
+    padding: 30px 40px;
+    border-radius: 100%;
+}
+
+/* end Services */
+
+/* start Reklam */
+
+#reklam {
+    margin-bottom: 50px;
+}
+
+#reklam h1 {
+    text-align: center;
+    padding: 140px 0px 20px 0px;
+    text-decoration: solid;
+}
+
+#reklam h3 {
+    text-align: center;
+    text-decoration: solid;
+    margin: 0px 0px 20px 0px;
+}
+
+#sekiller {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+
+}
+.tekSekil{
+    width: 28%;
+}
+.tekSekil img{
+    width: 100%;
+}
+.tekSekil h2{
+    color: black;
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+    font-size: 40px;
+    
+}
+.tekSekil h3{
+    color: rgb(145, 134, 121);
+    text-align: center;
+    text-decoration: solid;
+}
+/* end Reklam */
+
+/* start About */
+
+#about h1{
+    text-align: center;
+    padding: 100px 0px 15px 0px;
+    letter-spacing: 10px;
+font-size: 50px;
+text-decoration: solid;
+}
+#about h3{
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    color: rgb(145, 134, 121);
+}
+#section {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.news-section img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+}
+.news-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.news-section1{
+    width: 40%;
+    text-align: end;
+}
+.news-section1 p{
+    padding-left: 200px;
+    font-size: 18px;
+}
+.news-sectionimg{
+    width: 60%;
+}
+
+.news-section2{
+    width: 40%;
+    text-align: start;
+    margin-left: 30px;
+}
+.news-section2 p{
+    padding-right: 200px;
+    font-size: 18px;
+}
+.news-sectionimg2{
+    width: 55%;
+    text-align: end;
+}
+.news-sectionimg .son{
+    color:#fff;
+    border-radius: 50%;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: #dfdf0a;
+    
+    font-size: 44px;
+    padding: 22px 27px;
+
+}
+/* end about */
+/* start our team */
+#teamBasliq h1{
+    text-align: center;
+    margin: 35px;
+    letter-spacing: 5px;
+    
+}
+
+#teamBasliq h3{
+    text-align: center;
+    letter-spacing: 8px;
+    color: rgb(145, 134, 121);
+    text-decoration: underline;
+    padding: 0px 0px 120px 0px;
+}
+#team{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: row;
+
+
+    
+}
+#team img{
+    
+    border-radius: 50%;
+width: 250px;
+height: 250px;
+
+}
+#team h1{
+    padding-left: 13%;
+    margin: 8px;
+    padding: 10px;
+}
+#team h3{
+    padding-left: 23%;
+    color: rgb(145, 134, 121);
+    text-decoration: underline;
+
+}
+#icon{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+    padding: 30px;
+    
+    font-size: 40px;
+    padding: 30px 20px;
+    border-radius: 80%;
+}
+#icon a{
+   color: rgb(65, 58, 58);
+    letter-spacing: 5px;
+font-size: 60px;
+
+
+    
+}
+/* end our team */
+/* start son */
+#son p{
+    text-align: center;
+    padding: 10%;
+    color: rgb(145, 134, 121);
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-size: 20px;
+    
+    
+}
+
+/* end son */
